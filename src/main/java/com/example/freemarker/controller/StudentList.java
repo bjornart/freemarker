@@ -11,7 +11,7 @@ import java.util.List;
 @Controller
 public class StudentList {
 
-    @RequestMapping("/list")
+    @RequestMapping("list")
     public String list(Model model) {
         List<Student> list = new ArrayList<>();
         list.add(new Student(1, "Tom", 80.5));
